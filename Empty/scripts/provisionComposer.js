@@ -809,8 +809,8 @@ msRestNodeAuth
         subscriptionId: subId,
       };
 
-      console.log(chalk.white(JSON.stringify(profile, null, 2)));
-
+      console.info(`[INFO] Some object contains: ${not_sensitive_data}`);
+      
       console.log('');
     }
   })
